@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "Microsoft.NETCore": "5.0.0",
+		"OPCFoundation.NetStandard.Opc.Ua.Server": "1.4.370.6",
+        "System.Runtime.Serialization.Primitives": "4.0.10",
+		"Microsoft.AspNetCore.App.Runtime.linux-x64": "3.1.0"
+    },
+    "frameworks" : {
+        "TxM" : {}
+    },
+    "runtimes" : {
+        "RID": {}
+    },
+    "supports" : {
+        "CompatibilityProfile" : {}
+    }
+}
