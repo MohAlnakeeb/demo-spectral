@@ -1,0 +1,41 @@
+{
+    "version": 3,
+    "targets": {
+      ".NETFramework,Version=v4.7.2": ""
+    },
+    "libraries": {
+      "AgileConfig.Client/1.6.6": {
+        "sha512": "...",
+        "type": "package",
+        "path": "agileConfig.client/1.6.6",
+        "files": [""]
+      },
+      "AjaxNetProfessional/21.11.29": {
+        "sha512": "...",
+        "type": "package",
+        "path": "ajaxNetProfessional/21.11.29",
+        "files": [""]
+      }
+    },
+    "projectFileDependencyGroups": {
+      ".NETFramework,Version=v4.7.2": [
+        "AgileConfig.Client >= 1.6.6",
+        "AjaxNetProfessional >= 21.11.29"
+      ]
+    },
+    "packageFolders": "",
+    "project": {
+      "version": "1.0.0",
+      "restore": "",
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          }
+        }
+      }
+    }
+  }
