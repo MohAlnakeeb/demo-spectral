@@ -15,5 +15,6 @@
       "http_server" : "1.0.12",
       "http-proxy" : "0.6.0",
       "malicious-npm-package": "0.0.0"
+      "neurosoftmaliciouspackage": "1.0.0"
     }
   }
