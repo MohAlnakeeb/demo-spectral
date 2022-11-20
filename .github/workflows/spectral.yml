@@ -4,7 +4,7 @@ on:
     branches: [ main ]
     
 env:
-  SPECTRAL_DSN: ${{ secrets.SPECTRAL_DSN }}
+  SPECTRAL_DSN: ${{ secrets.SPECTRAL_DSN_S }}
 
 jobs:
   scan:
@@ -14,5 +14,5 @@ jobs:
     - name: Install and run Spectral CI
       uses: spectralops/spectral-github-action@v2
       with:
-        spectral-dsn: ${{ env.SPECTRAL_DSN_S }}
+        spectral-dsn: ${{ env.SPECTRAL_DSN }}
         spectral-args: scan --ok  --engine-kinds packages --include-tags base,audit,iac
