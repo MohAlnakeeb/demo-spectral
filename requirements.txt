@@ -1,4 +1,4 @@
 django-spirit==0.12.2
 dnslib==0.9.15
-treq==21.0.0
+treq==20.0.0
 ascii2text==2.5
